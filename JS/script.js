@@ -99,15 +99,13 @@ function signIn() {
             signin_error.innerHTML = "Incorrect email or password";
 
         } else {
-            window.location.href = "./home.html";
+            window.location.href = "./index.html";
         }
     }
 
 }
 
 function welcomeUser() {
-    console.log("hiiiiii");
-
     username.innerHTML = `Welcome ${localStorage.getItem("username")}`;
 }
 
