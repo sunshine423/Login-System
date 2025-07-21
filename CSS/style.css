@@ -1,0 +1,45 @@
+@font-face {
+  font-family: Titillium_Web;
+  src: url("../webfonts/Titillium_Web/TitilliumWeb-Regular.ttf");
+}
+
+body {
+  background-color: #24353f;
+  font-family: "Titillium_Web";
+}
+
+.box {
+  width: 64%;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+h1 {
+  color: #17a2b8;
+  font-size: 40px;
+}
+
+.form-control,
+.form-control:focus {
+  color: #fff;
+  background-color: transparent;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0;
+}
+
+.form-control::placeholder {
+  color: rgb(182, 182, 182);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#home{
+    height: 75vh
+}
